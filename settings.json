@@ -38,22 +38,35 @@
   "categories": [
     {
       "name": "PC",
-      "description": "Article or News Related To Gaming",
+      "description": "Article or News Related To PC Gaming",
       "order": 1,
-      "slug": "news"
+      "slug": "pc"
     },
     {
       "name": "Playstation",
-      "description": "Any Game Reviews",
+      "description": "Article or News Related To Playstation Gaming",
       "order": 1,
-      "slug": "reviews"
+      "slug": "playstation"
     },
    {
      "name": "XBOX",
-     "description": " Game Download Links ",
+     "description": " Article or News Related To XBOX Gaming ",
      "order": 1,
-     "slug": "downloads"
+     "slug": "xbox"
+   },
+  {
+     "name": "Nintendo",
+     "description": " Article or News Related To Nintendo Gaming",
+     "order": 1,
+     "slug": "nintendo"
+   },
+  {
+     "name": "Android",
+     "description": " Article or News Related To Android Gaming",
+     "order": 1,
+     "slug": "android"
    }
+
     
   ],
   "oAuth": {
