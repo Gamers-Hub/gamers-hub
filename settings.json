@@ -37,21 +37,21 @@
 
   "categories": [
     {
-      "name": "News",
+      "name": "PC",
       "description": "Article or News Related To Gaming",
       "order": 1,
       "slug": "news"
     },
     {
-      "name": "Reviews",
+      "name": "Playstation",
       "description": "Any Game Reviews",
-      "order": 2,
+      "order": 1,
       "slug": "reviews"
     },
    {
-     "name": "Downloads",
+     "name": "XBOX",
      "description": " Game Download Links ",
-     "order": 3,
+     "order": 1,
      "slug": "downloads"
    }
     
