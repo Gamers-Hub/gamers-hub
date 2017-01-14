@@ -28,6 +28,7 @@
   }
   .tagline{
     font-size: 1.35rem;
+    color: #fff;
   }
 }
 
@@ -53,6 +54,7 @@
 
 .users-account-menu, .users-menu{
   .dropdown-toggle{
+    color: #ffffff;
     @include flex-center;
     padding: 0;
     background: none;

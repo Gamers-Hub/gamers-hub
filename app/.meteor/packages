@@ -42,3 +42,5 @@ nova:debug
 ############ Your Packages ############
 
 # my-custom-package
+my-custom-package
+gamershub
