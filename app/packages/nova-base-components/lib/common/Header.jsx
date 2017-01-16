@@ -14,9 +14,9 @@ const Header = (props, {currentUser}) => {
       <header className="header">
 
         <div className="logo">
-            <IndexLink to="/" >
-          <img src="https://pbs.twimg.com/profile_banners/820733749809717248/1484580679/1500x500"style={{maxWidth: "100px", maxHeight: "100px"}} />
-     </IndexLink>
+            
+          <img src="https://lh3.googleusercontent.com/-z8pL0sLK8Gw/WHzbjSW8DfI/AAAAAAAAObk/lgRtTGtQiB4zMzBpfN-Gl9Ob2p5TXFJlACEw/h77/logo.png" class="logoimg"  />
+
         </div>
         
         <div className="nav">
