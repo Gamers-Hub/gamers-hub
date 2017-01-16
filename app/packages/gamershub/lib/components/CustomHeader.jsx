@@ -10,8 +10,8 @@ const CustomHeader = (props, {currentUser}) => {
       <header className="header">
 
         <div className="logo">
- <IndexLink to={{pathname: "/"}}>
-          <img src="https://lh3.googleusercontent.com/-z8pL0sLK8Gw/WHzbjSW8DfI/AAAAAAAAObk/lgRtTGtQiB4zMzBpfN-Gl9Ob2p5TXFJlACEw/h77/logo.png" alt={siteTitle} style={{maxWidth: "100px", maxHeight: "100px"}}/>
+ <IndexLink to="/">
+          <img src="https://lh3.googleusercontent.com/-z8pL0sLK8Gw/WHzbjSW8DfI/AAAAAAAAObk/lgRtTGtQiB4zMzBpfN-Gl9Ob2p5TXFJlACEw/h77/logo.png" style={{maxWidth: "100px", maxHeight: "100px"}}/>
         </IndexLink>
         </div>
         
