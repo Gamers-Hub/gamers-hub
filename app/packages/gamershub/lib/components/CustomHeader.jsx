@@ -13,7 +13,7 @@ const CustomHeader = (props, {currentUser}) => {
       <header className="header">
 
         <div className="logo">
-          <img src="https://pbs.twimg.com/profile_banners/820733749809717248/1484580679/1500x500" />
+          <img src="https://lh3.googleusercontent.com/-z8pL0sLK8Gw/WHzbjSW8DfI/AAAAAAAAObk/lgRtTGtQiB4zMzBpfN-Gl9Ob2p5TXFJlACEw/h77/logo.png" />
           {tagline ? <h2 className="tagline">{tagline}</h2> : "" }
         </div>
         
