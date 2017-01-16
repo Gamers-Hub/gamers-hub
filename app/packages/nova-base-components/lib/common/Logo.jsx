@@ -11,7 +11,7 @@ const Logo = ({logoUrl, siteTitle}) => {
       </h1>
     )
   }
-}
+
 
 Logo.displayName = "Logo";
 
