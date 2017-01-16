@@ -9,7 +9,7 @@ import { IndexLink } from 'react-router';
 
 const CustomLogo = ({logoUrl, siteTitle}) => {
   return (
-    <h1 className="logo-text"><IndexLink to="/">{siteTitle}</IndexLink></h1>
+<IndexLink to="/">   <img src="{logoUrl}" width="logoWidth" height="logoHeight"></IndexLink>
   )
 }
 
