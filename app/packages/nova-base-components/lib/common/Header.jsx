@@ -14,7 +14,8 @@ const Header = (props, {currentUser}) => {
       <header className="header">
 
         <div className="logo">
-          <Telescope.components.Logo logoUrl={logoUrl} siteTitle={siteTitle} />
+          <Telescope.components.Logo siteTitle={siteTitle} />
+          <img src="https://pbs.twimg.com/profile_banners/820733749809717248/1484580679/1500x500" />
           {tagline ? <h2 className="tagline">{tagline}</h2> : "" }
         </div>
         

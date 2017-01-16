@@ -4,7 +4,7 @@ import React from 'react';
 
 const CustomHeader = (props, {currentUser}) => {
   
-  const logoUrl = Telescope.settings.get("logoUrl");
+
   const tagline = Telescope.settings.get("tagline");
 
   return (
@@ -13,7 +13,7 @@ const CustomHeader = (props, {currentUser}) => {
       <header className="header">
 
         <div className="logo">
-          <Telescope.components.Logo logoUrl={logoUrl} />
+          <img src="https://pbs.twimg.com/profile_banners/820733749809717248/1484580679/1500x500" />
           {tagline ? <h2 className="tagline">{tagline}</h2> : "" }
         </div>
         
