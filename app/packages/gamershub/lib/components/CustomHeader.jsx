@@ -3,9 +3,6 @@ import React from 'react';
 //import { Messages } from "meteor/nova:core";
 
 const CustomHeader = (props, {currentUser}) => {
-  
-
-  const tagline = Telescope.settings.get("tagline");
 
   return (
     <div className="header-wrapper">
@@ -14,7 +11,7 @@ const CustomHeader = (props, {currentUser}) => {
 
         <div className="logo">
           <img src="https://lh3.googleusercontent.com/-z8pL0sLK8Gw/WHzbjSW8DfI/AAAAAAAAObk/lgRtTGtQiB4zMzBpfN-Gl9Ob2p5TXFJlACEw/h77/logo.png" class="logoimg" />
-          {tagline ? <h2 className="tagline">{tagline}</h2> : "" }
+      
         </div>
         
         <div className="nav">

@@ -14,9 +14,9 @@ const Header = (props, {currentUser}) => {
       <header className="header">
 
         <div className="logo">
-          <Telescope.components.Logo siteTitle={siteTitle} />
-          <img src="https://pbs.twimg.com/profile_banners/820733749809717248/1484580679/1500x500" />
-          {tagline ? <h2 className="tagline">{tagline}</h2> : "" }
+            <IndexLink to={{pathname: "/"}}>
+          <img src="https://pbs.twimg.com/profile_banners/820733749809717248/1484580679/1500x500" alt={siteTitle} style={{maxWidth: "100px", maxHeight: "100px"}} />
+     </IndexLink>
         </div>
         
         <div className="nav">
