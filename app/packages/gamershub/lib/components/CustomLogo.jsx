@@ -9,7 +9,7 @@ import { IndexLink } from 'react-router';
 
 const CustomLogo = ({logoUrl, siteTitle}) => {
   return (
-<IndexLink to="/">   <img src="{logoUrl}" width="logoWidth" height="logoHeight"></IndexLink>
+<IndexLink to="/">  <img src={logoUrl} width={logoWidth} height={logoHeight} /></IndexLink>
   )
 }
 
