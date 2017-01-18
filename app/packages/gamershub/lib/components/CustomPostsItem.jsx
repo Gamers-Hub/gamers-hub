@@ -52,6 +52,11 @@ class CustomPostsItem extends Telescope.components.PostsItem {
                      Visit Link
                  </Link> 
             </div>
+           <div className="posts-item-comments">
+              <b> <Link to={Posts.getLink(post)}  target={Posts.getLinkTarget(post)}>
+                     Visit Link
+                 </Link> </b>
+            </div>
             {this.context.currentUser && this.context.currentUser.isAdmin ? <Telescope.components.PostsStats post={post} /> : null}
             {this.renderActions()}
           </div>
