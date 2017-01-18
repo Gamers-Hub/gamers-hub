@@ -48,9 +48,7 @@ class CustomPostsItem extends Telescope.components.PostsItem {
               <Link to={Posts.getPageUrl(post)}>
                 <FormattedMessage id="comments.count" values={{count: post.commentCount}}/>
               </Link>
-               <Link to={Posts.getLink(post)}  target={Posts.getLinkTarget(post)}>
-                     Visit Link
-                 </Link> 
+   
             </div>
            <div className="posts-item-comments">
               <b> <Link to={Posts.getLink(post)}  target={Posts.getLinkTarget(post)}>
