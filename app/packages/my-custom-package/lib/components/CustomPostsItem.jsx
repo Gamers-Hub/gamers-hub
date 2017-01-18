@@ -35,7 +35,7 @@ class CustomPostsItem extends Telescope.components.PostsItem {
         <div className="posts-item-content">
 
           <h3 className="posts-item-title">
-            <Link to={Posts.getLink(post)} className="posts-item-title-link" target={Posts.getLinkTarget(post)}>
+            <Link to={Posts.getPageUrl(post)} className="posts-item-title-link" target={Posts.getLinkTarget(post)}>
               {post.title}
             </Link>
                
@@ -48,12 +48,17 @@ class CustomPostsItem extends Telescope.components.PostsItem {
             <div className="posts-item-comments">
               <Link to={Posts.getPageUrl(post)}>
                 <FormattedMessage id="comments.count" values={{count: post.commentCount}}/>
-              </Link>
+              </Link> 
+               
+                <Link to={Posts.getLink(post)} className="posts-item-title-link" target={Posts.getLinkTarget(post)}>
+              Visit Link
+            </Link>
             </div>
             {this.context.currentUser && this.context.currentUser.isAdmin ? <Telescope.components.PostsStats post={post} /> : null}
             {this.renderActions()}
+                 
           </div>
-
+         
         </div>
 
         {this.renderCommenters()}
