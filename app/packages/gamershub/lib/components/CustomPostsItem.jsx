@@ -17,12 +17,12 @@ class CustomPostsItem extends Telescope.components.PostsItem {
     let postClass = "posts-item";
     if (post.sticky) postClass += " posts-sticky";
 
-    // ⭐ custom code starts here ⭐
+    //  custom code starts here 
     if (post.color) {
       postClass += " post-"+post.color;
     }
-    // ⭐ custom code ends here ⭐
-
+    // custom code ends here 
+      // For target link
     return (
       <div className={postClass}>
 
@@ -35,7 +35,7 @@ class CustomPostsItem extends Telescope.components.PostsItem {
         <div className="posts-item-content">
 
           <h3 className="posts-item-title">
-            <Link to={Posts.getLink(post)} className="posts-item-title-link" target={Posts.getLinkTarget(post)}>
+            <Link to={Posts.getLink(post)} className="posts-item-title-link" >
               {post.title}
             </Link>
             {this.renderCategories()}

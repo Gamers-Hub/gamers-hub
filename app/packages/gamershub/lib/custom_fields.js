@@ -25,10 +25,10 @@ Posts.addField(
         options: function () { // options for the select form control
           return [
             {value: "white", label: "White"},
-            {value: "yellow", label: "Yellow"},
-            {value: "blue", label: "Blue"},
-            {value: "red", label: "Red"},
-            {value: "green", label: "Green"}
+            {value: "yellow", label: "New Release"},
+            {value: "blue", label: "Downloads"},
+            {value: "red", label: "Videos"},
+            {value: "green", label: "News"}
           ];
         }
       },
