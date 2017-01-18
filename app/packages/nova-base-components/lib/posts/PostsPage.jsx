@@ -10,7 +10,7 @@ const PostsPage = ({document, currentUser}) => {
   return (
     <div className="posts-page">
 
-      <Telescope.components.HeadTags url={Posts.getLink(post)} title={post.title} image={post.thumbnailUrl} />
+      <Telescope.components.HeadTags url={Posts.getLink(post)}> title={post.title} image={post.thumbnailUrl} target={Posts.getLinkTarget(post)} />
       
       <Telescope.components.PostsItem post={post}/>
 

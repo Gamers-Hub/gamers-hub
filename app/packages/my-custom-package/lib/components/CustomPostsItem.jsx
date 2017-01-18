@@ -38,6 +38,7 @@ class CustomPostsItem extends Telescope.components.PostsItem {
             <Link to={Posts.getLink(post)} className="posts-item-title-link" target={Posts.getLinkTarget(post)}>
               {post.title}
             </Link>
+               
             {this.renderCategories()}
           </h3>
 
