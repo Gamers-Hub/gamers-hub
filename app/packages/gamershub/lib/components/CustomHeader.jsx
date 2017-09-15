@@ -11,7 +11,7 @@ const CustomHeader = (props, {currentUser}) => {
 
         <div className="logo">
              <a href="http://gamershub-in.herokuapp.com">
-          <img src="https://lh3.googleusercontent.com/-z8pL0sLK8Gw/WHzbjSW8DfI/AAAAAAAAObk/lgRtTGtQiB4zMzBpfN-Gl9Ob2p5TXFJlACEw/h77/logo.png" class="logoimg" />
+          <img src="https://github.com/Gamers-Hub/gamers-hub/raw/master/app/public/img/logo.png" class="logoimg" />
          </a>
         </div>
         

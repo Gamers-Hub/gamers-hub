@@ -10,6 +10,7 @@ const MyCustomPage = () => {
     <div>
       <h1>Welcome To My Custom Page!</h1>
       <p>Nice to meet you.</p>
+      <a href="http://gamershub-in.herokuapp.com"><img src="/img/logo.png" /></a>
     </div>
   )
 }
